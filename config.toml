@@ -1,10 +1,13 @@
 baseURL = "http://birthofabeona.surge.sh"
 languageCode = "en"
-title = "Blog about the birth of Abeona"
+title = "Birth of Abeona"
 theme = "hugo-nuo"
+enableRobotsTXT = true
+PygmentsCodeFences = true
+canonifyurls = true
 
 # Copyright of your post
-copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License,please give source if you likes to quote or reproduce."
+copyright = "ï¿½ This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License,please give source if you likes to quote or reproduce."
 
 # Initial site menu, you can extend menu with content.
 [[menu.main]]
@@ -24,3 +27,11 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCom
   weight = 30
   identifier = "tags"
   url = "/tags/"
+
+[params]
+  author = "PPL D2"
+  avatar = "/img/avatar.jpg"
+  seotitle = "Blog PPL D2 Abeona Travel Personal Assistant Chatbot"
+  subtitle = "A blog preserving the journey of Abeona's birth"
+  description = "Abeona is a personal chatbot assistant designed to meet your personalized needs"
+  paginate = 10
