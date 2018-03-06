@@ -2,6 +2,7 @@
 title: "Let's Talk About This Blog"
 date: 2018-02-15T17:19:05+07:00
 author: Felicia
+tags: ["Felicia", "Blog", "Sprint 0"]
 ---
 
 
