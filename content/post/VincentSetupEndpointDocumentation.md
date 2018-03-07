@@ -14,20 +14,20 @@ Pada *task setup initial endpoint*, penulis melakukan setup untuk 3 endpoint yai
 Berikut link untuk setiap user story yang sudah dilakukan setup.
 
 #### User Story 1 - Register
-[link] (https://gitlab.com/PPL2018csui/Kelas-D/PPL2018-D2/tree/us01_abeona_register)
+[link](https://gitlab.com/PPL2018csui/Kelas-D/PPL2018-D2/tree/us01_abeona_register)
 
 #### User Story 3 - Chat CI
-[link] (https://gitlab.com/PPL2018csui/Kelas-D/PPL2018-D2/tree/us03_abeona_chat_ci)
+[link](https://gitlab.com/PPL2018csui/Kelas-D/PPL2018-D2/tree/us03_abeona_chat_ci)
 
 #### User Story 4 - Product Page
-[link] (https://gitlab.com/PPL2018csui/Kelas-D/PPL2018-D2/tree/us04_productPage)
+[link](https://gitlab.com/PPL2018csui/Kelas-D/PPL2018-D2/tree/us04_productPage)
 
 ## Dokumentasi
-Dokumentasi untuk setiap endpoint dibuat pada [swagger] (https://swagger.io/). Namun, dokumentasi ini belum dipublish karena mungkin terdapat perubahan - perubahan pada request ataupun response dari endpoint tersebut. Dokumentasi akan dipublish ketika semua endpoint pada sprint 1 sudah diimplementasi.
+Dokumentasi untuk setiap endpoint dibuat pada [swagger](https://swagger.io/). Namun, dokumentasi ini belum dipublish karena mungkin terdapat perubahan - perubahan pada request ataupun response dari endpoint tersebut. Dokumentasi akan dipublish ketika semua endpoint pada sprint 1 sudah diimplementasi.
 
-![Endpoint Interface](/img/EndpointInterface.jpg)
+![Endpoint Interface](/img/EndpointInterface.JPG)
 
-![Endpoint Specification](/img/EndpointSpec.jpg)
+![Endpoint Specification](/img/EndpointSpec.JPG)
 
 #### Todo Next
 - Mempelajari react-app untuk halaman web.
