@@ -1,6 +1,6 @@
 ---
 title: "Graph Database, Gitlab CI, and Docker"
-date: 2018-03-07T09:32:28+07:00
+date: 2018-03-07T11:06:28+07:00
 author: Fersandi Pratama
 tags: ["Fersandi", "CI", "Database", "Docker", "Sprint 1"]
 ---
@@ -127,7 +127,7 @@ Kode dapat dilihat pada [link](https://gitlab.com/PPL2018csui/Kelas-D/PPL2018-D2
 
 ## Docker & Docker-compose
 
-![Docker Images](/static/img/docker.jpg)
+![Docker Images](/img/docker.jpg)
 
 Docker adalah platform untuk melakukan pembuatan, dan pendistribusian aplikasi. Aplikasi yang dibangun menggunakan docker akan dijalankan dalam lingkungan yang terisolasi sehingga tidak terdistraksi dengan program-program lain yang berjalan pada komputer. Docker pada konteks projek PPL ini digunakan untuk melakukan pemasangan ArangoDB pada komputer masing-masing anggota tim.
 
