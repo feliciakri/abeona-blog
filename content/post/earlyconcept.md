@@ -10,16 +10,16 @@ Hello, my name is Tjokorde Gde Agung Octavio Putra and i am the hipster in this 
 ## Early Sketches
 From the requirements that our partner has given, i've made some quick sketches on how the app would look. First off is the android app itself. As a frequent traveler, i've had a vision on how the app should look like in order to ease travelers. First off is the chat menu itself
 
-![Chat Dialog](/img/Mockup/Chat Dialog.png)
-![Onboarding Dialog](/img/Mockup/Souvenir Request.png)
+![Chat Dialog](/img/Mockup/chat-dialog.png)
+![Onboarding Dialog](/img/Mockup/souvenir-request.png)
 
 Taking inspiration from personal assistant apps like Siri and Ada, the chat screen should be a simple chat screen with user onboarding for handling user requests. With user onboarding, we can gather the user's preference without bothering them. Abby, our personal assistant's name, will give the user a list of items according to their request which the user will sort throught using simple gestures until the found one that they prefer.
 
-![Product Page](/img/Mockup/Restaurant Detail.png)
+![Product Page](/img/Mockup/restaurant-detail.png)
 
 When the user found the service that they want. We will then provide them the necessary details about the service which they requested. The details vary per product, but it generally provides information about the what the service is, how to get it, and the reviews around the product. There might also be special service specific information served in tabs such as menus for restaurants.  
 
-![Admin Console](/img/Mockup/Restaurant Detail.png)
+![Admin Console](/img/Mockup/admin-page.png)
 
 Our personal assistant app wont be fully automated from start to finish, which is why our hard-working admins will need a comfortable console for them to work in. The admin console provides a simple interface for admins to chat with users that requested service along with all the tools they need to respond.
 
@@ -32,14 +32,14 @@ From now on its Felicia's time in the spotlight. Felicia has done a great work r
 ## Overall Branding
 During the mockup development, we also thought about the branding of our apps. We needed a logo, so i've designed one.
 
-![First Logo](/img/Mockup/abeona-old-02.png)
-![First Logo](/img/Mockup/abeona-old-01.png)
+![First Logo](/img/Mockup/abeona-old-2.png)
+![First Logo](/img/Mockup/abeona-old-1.png)
 
  The first batch of the logo is a simple mountain range surrounded a circle. The mountains represent an outward journey with its rounded edges that promotes a youthful appeal. The circle surrounding the mountain represents freedom and communion. The blue color represents intellegence, communication, and efficiency. The logotype under the logo represents our name in a clear, but also soothing way. But, since the logo was made in a hurry, it lacks impact and looks a little bland with an awkward look between the mountains and the circle surrounding it. Which is why i've revised the logo to fix these problems.
 
-![Second Logo](/img/Mockup/abeona-new-01.png)
-![Second Logo](/img/Mockup/abeona-new-01.png)
-![Second Logo](/img/Mockup/abeona-new-01.png)
+![Second Logo](/img/Mockup/abeona-new.png)
+![Second Logo](/img/Mockup/abeona-new-1.png)
+![Second Logo](/img/Mockup/abeona-new-2.png)
 
 In the second batch, the bottom edge of the mountain is conjoined to the circle to give some kind of connection between the shapes. I've also changed the logogram into a lighter font for a more elegant feel.
 
@@ -51,7 +51,7 @@ App Color Palette.
 
 My first hands on experience with coding our app is creating the splash screen view. The splash screen is the screen that appears between the user clicking the app and the app showing its first activity. This might seem counterproductive as the general consensus for UX is to not waste the user's time on useless views. But, with increasing app load times, this is a simple way to keep the user preoccupied during the load time, without adding to the load time itself. Which is why the best way to present a splash screen is not by creating a new activity, but by making it as an activity's theme background. To do this, first create an XML drawable in the drawable folder 
 
-'''XML
+```XML
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -66,11 +66,11 @@ My first hands on experience with coding our app is creating the splash screen v
     </item>
 
 </layer-list>
-'''
+```
 
 Next, set this as the splash activity's background in the theme. For this, change the styles.xml file and add a new theme for the splash activity
 
-'''XML
+```XML
 <resources>
 
     <!-- Base application theme. -->
@@ -97,11 +97,11 @@ Next, set this as the splash activity's background in the theme. For this, chang
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>
-'''
+```
 
 Afterwards, set the window background attribute to your XML drawable in the SplashTheme. Edit the AndroidManifest.xml
 
-'''XML
+```XML
 	<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ga.abeona.abeona">
@@ -133,7 +133,7 @@ Afterwards, set the window background attribute to your XML drawable in the Spla
 
 
 </manifest>
-'''
+```
 
 And finally the SplashActivity class itself
 
