@@ -17,7 +17,7 @@ mempermudah proses *deployment*.
 
 #### ArangoDB
 
-![ArangoDB Image](/static/img/arangodb.png)
+![ArangoDB Image](/img/arangodb.png)
 
 Teknologi *graph database* yang digunakan adalah [ArangoDB](https://www.arangodb.com/ "Arango DB"). Pemilihan ArangoDB sendiri disebabkan karena lisensi yang digunakan menggunakan *Apache License 2.0* yang bisa digunakan untuk aplikasi komersil dan berdasarkan oleh *benchmark* yang dilakukan oleh ArangoDB sendiri yang dapat dilihat pada [blog](https://www.arangodb.com/2018/02/nosql-performance-benchmark-2018-mongodb-postgresql-orientdb-neo4j-arangodb/) mereka. Dapat dilihat bahwa performa ArangoDB cukup baik untuk digunakan dibandingkan dengan teknologi *database* yang lain.
 
