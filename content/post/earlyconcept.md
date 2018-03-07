@@ -38,8 +38,8 @@ During the mockup development, we also thought about the branding of our apps. W
  The first batch of the logo is a simple mountain range surrounded a circle. The mountains represent an outward journey with its rounded edges that promotes a youthful appeal. The circle surrounding the mountain represents freedom and communion. The blue color represents intellegence, communication, and efficiency. The logotype under the logo represents our name in a clear, but also soothing way. But, since the logo was made in a hurry, it lacks impact and looks a little bland with an awkward look between the mountains and the circle surrounding it. Which is why i've revised the logo to fix these problems.
 
 ![Second Logo](/img/abeona-new.png)
-![Second Logo](/img/abeona-new-1.png)
 ![Second Logo](/img/abeona-new-2.png)
+![Second Logo](/img/abeona-new-3.png)
 
 In the second batch, the bottom edge of the mountain is conjoined to the circle to give some kind of connection between the shapes. I've also changed the logogram into a lighter font for a more elegant feel.
 
