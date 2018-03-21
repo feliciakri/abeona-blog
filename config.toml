@@ -1,5 +1,5 @@
-#baseURL = "http://birthofabeona.surge.sh"
-baseURL = "http://localhost:1313"
+baseURL = "http://birthofabeona.surge.sh"
+#baseURL = "http://localhost:1313"
 languageCode = "en"
 title = "Birth of Abeona"
 theme = "hugo-nuo"
