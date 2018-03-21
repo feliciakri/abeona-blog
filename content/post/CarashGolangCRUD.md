@@ -127,6 +127,11 @@ func SampleErr() error {
 
 Easy enough. We'll just see how this error scales, hopefully well.
 
+#### Linter Cleanup
+>This is not so much as development, as is best practice.
+
+Since the beginning of this development, I haven't paid much attention to the linter warnings. And when I finally ran it for the first time last week, I realized the many warnings that were present, but even then I ignored them. Since then, every push I have done has generated a lot of warning, although it is not fatal or flawed in any way, it's still annoying to see warnings for every change I made. So yesterday, I finally decided to clean up the tens of lines of warnings and commit the all as one. As I said, not really development, neither significant, but still.
+
 ## WIP
 Other than those, I haven't made much progress at all. The thing I am currently working on is creating a CRUD endpoint for products and merchants, I have been working on this section for a whole week, interrupted by the other things mentioned above, along with the holdups. All I have accomplished for this is just creating stubs and `structures` for the CRUD process.
 
