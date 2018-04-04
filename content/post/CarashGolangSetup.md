@@ -11,6 +11,7 @@ tags: ["Wibisana", "Golang", "Setup", "TDD", "Sprint 1"]
 This is my first week working on the class project for PPL (*Proyek Perangkat Lunak*). Because of that, my progress will not seem much, but that is because trying out different frameworks and conventions for the project forward has taken most of my time, since it will be crucial for the development going forward.
 
 After trying out multiple frameworks and packages (this took almost a day on its own, **lol**), I ended up using the following:
+
 - [Gin](https://github.com/gin-gonic/gin) for the service framework,
 - [Gofight](https://github.com/appleboy/gofight) for testing,
 - [Assert](github.com/stretchr/testify/assert) since apparently, Golang does not natively support assertion and
@@ -41,6 +42,7 @@ can create working page, albeit static and bland (not that blandness really matt
 After setting up the routing and static handling, I then moved up to create the testing (`YES I KNOW`, TDD is supposed to start with the testing, **THEN** the implementation. But since this is my first time developing with TDD in mind using Golang, not to mention the frameworks I have never even heard of, I had to create dummies to check if the testing frameworks were even working as expected, and how to use them). Like picking out Gin, picking out Gofight also eases much of the work needed to test the implemented code.
 
 After fiddling with multiple ways to test, I ended up settling on these conventions:
+
 - For every tested `function`/`method`, there **MUST** be a `structure` to define its `MonkeyPatch` and expected `inputs` along with their respective `outputs`. It said `structure` looks like this,
 
 ```Go
