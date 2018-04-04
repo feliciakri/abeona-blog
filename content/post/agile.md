@@ -9,12 +9,14 @@ Agile development has been the staple for Software Development for quite a long 
 
 ## Agile Manifesto & Principles
 Agile is a software development method that is based on the agile manifesto and its 12 principles. Agile development closely follows its four points of its manifesto which are:
+
 - Individuals and interactions over processes and tools
 - Working software over comprehensive documentation
 - Customer collaboration over contract negotiation
 - Responding to change over following a plan
 
 Therefore from those 4 main points, agile had developed its own 12 principles which are:
+
 - Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
 - Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
 - Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
