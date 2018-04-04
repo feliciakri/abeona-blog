@@ -7,6 +7,29 @@ tags: ["Octavio", "Design", "Sprint 1"]
 
 Agile development has been the staple for Software Development for quite a long time. It's where you turn when you want to develop a Software while also wanting to accommodate changes mid development in order to better suit the market needs. So what exactly is Agile Development? And how do you implement it in your next project?
 
+## Agile Manifesto & Principles
+Agile is a software development method that is based on the agile manifesto and its 12 principles. Agile development closely follows its four points of its manifesto which are:
+* Individuals and interactions over processes and tools
+* Working software over comprehensive documentation
+* Customer collaboration over contract negotiation
+* Responding to change over following a plan
+
+Therefore from those 4 main points, agile had developed its own 12 principles which are:
+* Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+* Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
+* Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
+* Business people and developers must work together daily throughout the project.
+* Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
+* The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
+* Working software is the primary measure of progress.
+* Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
+* Continuous attention to technical excellence and good design enhances agility.
+* Simplicity--the art of maximizing the amount of work not done--is essential.
+* The best architectures, requirements, and designs emerge from self-organizing teams.
+* At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
+
+## Scrum Introduction
+
 “Agile Development” is an umbrella term for several iterative and incremental software development methodologies. The most popular agile methodologies include Extreme Programming (XP), Scrum, Crystal, Dynamic Systems Development Method (DSDM), Lean Development, and Feature-Driven Development (FDD). While they all differ in methodologies, they all follow the same core values (Agile Manifesto). In our case, we've used the Scrum methodology for our software development.
 
 Scrum is a subset of Agile. It is a lightweight process framework for agile development, and the most widely-used one. Scrum processes enable organizations to adjust smoothly to rapidly-changing requirements, and produce a product that meets evolving business goals using iterative and incremental practices. An agile Scrum process benefits the organization by helping it to
@@ -14,6 +37,8 @@ Scrum is a subset of Agile. It is a lightweight process framework for agile deve
 * Cope better with change (and expect the changes)
 * Provide better estimates while spending less time creating them
 * Be more in control of the project schedule and state
+
+## How to Scrum
 
 So how do you do scrum? Here's a simple infographic:
 ![Scrum Development Guideline](/img/Scrum.jpg)

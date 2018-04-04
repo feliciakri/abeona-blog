@@ -35,7 +35,7 @@ During the mockup development, we also thought about the branding of our apps. W
 ![First Logo](/img/abeona-old-2.png)
 ![First Logo](/img/abeona-old-1.png)
 
- The first batch of the logo is a simple mountain range surrounded a circle. The mountains represent an outward journey with its rounded edges that promotes a youthful appeal. The circle surrounding the mountain represents freedom and communion. The blue color represents intellegence, communication, and efficiency. The logotype under the logo represents our name in a clear, but also soothing way. But, since the logo was made in a hurry, it lacks impact and looks a little bland with an awkward look between the mountains and the circle surrounding it. Which is why i've revised the logo to fix these problems.
+ The first batch of the logo is a simple mountain range surrounded a circle. The mountains represent an outward journey with its rounded edges that promotes a youthful appeal. The circle surrounding the mountain represents freedom and communion. The blue color represents intelligence, communication, and efficiency. The logotype under the logo represents our name in a clear, but also soothing way. But, since the logo was made in a hurry, it lacks impact and looks a little bland with an awkward look between the mountains and the circle surrounding it. Which is why I've revised the logo to fix these problems.
 
 ![Second Logo](/img/abeona-new.png)
 ![Second Logo](/img/abeona-new-2.png)
@@ -43,13 +43,14 @@ During the mockup development, we also thought about the branding of our apps. W
 
 In the second batch, the bottom edge of the mountain is conjoined to the circle to give some kind of connection between the shapes. I've also changed the logogram into a lighter font for a more elegant feel.
 
-#### Todo Next
+#### The Final Design
 
-App Color Palette.
+Finally, the design has reached its final stage. The research, design, and asset production has finally culminated in a finished product mockup that you can see below.
+![Final Abeona Design](/img/final-deisgn.png)
 
 ## Making a Splash Screen
 
-My first hands on experience with coding our app is creating the splash screen view. The splash screen is the screen that appears between the user clicking the app and the app showing its first activity. This might seem counterproductive as the general consensus for UX is to not waste the user's time on useless views. But, with increasing app load times, this is a simple way to keep the user preoccupied during the load time, without adding to the load time itself. Which is why the best way to present a splash screen is not by creating a new activity, but by making it as an activity's theme background. To do this, first create an XML drawable in the drawable folder 
+My first hands on experience with coding our app is creating the splash screen view. The splash screen is the screen that appears between the user clicking the app and the app showing its first activity. This might seem counterproductive as the general consensus for UX is to not waste the user's time on useless views. But, with increasing app load times, this is a simple way to keep the user preoccupied during the load time, without adding to the load time itself. Which is why the best way to present a splash screen is not by creating a new activity, but by making it as an activity's theme background. To do this, first create an XML drawable in the drawable folder
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
