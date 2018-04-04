@@ -46,7 +46,7 @@ In the second batch, the bottom edge of the mountain is conjoined to the circle 
 #### The Final Design
 
 Finally, the design has reached its final stage. The research, design, and asset production has finally culminated in a finished product mockup that you can see below.
-![Final Abeona Design](/img/final-deisgn.png)
+![Final Abeona Design](/img/final-design.png)
 
 ## Making a Splash Screen
 
