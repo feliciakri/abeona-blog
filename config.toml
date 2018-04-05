@@ -6,6 +6,7 @@ theme = "hugo-nuo"
 enableRobotsTXT = true
 PygmentsCodeFences = true
 canonifyurls = true
+enableEmoji = true
 
 # Copyright of your post
 copyright = "� This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License,please give source if you likes to quote or reproduce."
