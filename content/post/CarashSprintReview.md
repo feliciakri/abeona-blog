@@ -3,6 +3,8 @@ title: "Sprint Review and its Lead Up"
 date: 2018-04-05T09:30:50+07:00
 author: Wibisana Bramawidya
 tags: ["Wibisana", "Golang", "Sprint 1", "Sprint Review", "Rant", "Git Flow"]
+enableEmoji: true
+footnotes: false
 ---
 
 > Mistakes were made. hooo boy, were mistakes made.
