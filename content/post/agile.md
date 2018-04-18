@@ -43,7 +43,9 @@ Scrum is a subset of Agile. It is a lightweight process framework for agile deve
 ## How to Scrum
 
 So how do you do scrum? Here's a simple infographic:
+
 ![Scrum Development Guideline](/img/Scrum.jpg)
+
 A team in a Scrum Development consists of the developer, the product owner, and the scrum master. At the beginning of development, the team first creates a product backlog. The product backlog is a list of main features that will be implemented by the developers. The product backlog must be able to be understood by the developers and the businesspersons. The product backlog can be built by receiving inputs from customers, the team, managers, executives, etc. Each backlog item is also assigned with a number proportional to its difficulty.
 
 Afterwards its time for the spring planning. The team selects the backlog items they want to work on this sprint. The team then defines the tasks that are needed in order the implement the backlog item. This list of tasks are called the sprint backlog. This tasks can be either added, removed, or assigned every sprint meeting. Afterwards, the team picks the task that they want to do and proceed to implement it. In our case, we are limited to one task per sprint meeting.
