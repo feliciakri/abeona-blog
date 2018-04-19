@@ -23,7 +23,7 @@ The master branch is the main branch that stores the source code for production 
 The sit_uat branch (System Integration Testing & User Acceptance Testing) is a branch used for the development environment. This branch is used to store the program in a somewhat complete state, combining the branches that are being worked on the current sprint, and also acts as the main testbed for integrating said branches. This branch will be presented to the product owner during the sprint review.
 
 #### User Story Branches
-The user story branches is a branch used for individual user stories. Their names follow the format usXX_[storyname]. These are the branches where daily work are submitted. When the user story deemed complete, it is then merged to sit_uat branch after receiving approval from at least 2 team members.
+The user story branches is a branch used for individual user stories. Their names follow the format usXX_storyname. These are the branches where daily work are submitted. When the user story deemed complete, it is then merged to sit_uat branch after receiving approval from at least 2 team members.
 
 #### Coba_coba
 The coba_coba branch is a branch where developers can try things out, as the name suggests. It is primarily used for integration testing and environment setup. It can also be merged into sit_uat if received enough approval.
