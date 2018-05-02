@@ -33,6 +33,8 @@ The hotfix branch is the branch used to fix bugs in the master branch, while the
 
 ## Software Architecture
 
+### Android Architecture
+
 In a world where the user interface logic tends to change more often than the business logic, the desktop and Web developers needed a way of separating user interface functionality. The MVC pattern was their solution.
 
 - Model — the data layer, responsible for managing the business logic and handling network or database API.
@@ -58,3 +60,9 @@ Active model architecture is where the model can be altered by both the view and
 Nowadays, the community has found an ubiquitous way to use MVC in android. The Activities, Fragments and Views should be the Views in the MVC world. The Controllers should be separate classes that don’t extend or use any Android class, and so are the Models. To connect the Controller to the View, the Controller needs a reference to the View. The easiest way of doing this is to have a BaseView interface that the Activity/Fragment/View would extend. So, the Controller would have a reference to the BaseView.
 
 The MVC pattern highly supports the separation of different concerns in a software. This in turn increases the testability of the software and easier to extend.
+
+### Backend & Database
+
+![Abeona Architecture image](/img/abeona-architecture.jpg)
+
+For the backend, we use a golang backend that sits on an Apache server. The android application posts and gets data from the backend through REST API. The decision behind choosing golang is because it has a lot of useful libraries and that 2 of our hackers are proficient with it. As for the database, we use ArangoDB which is a NoSQL database. This is because we need the flexibility of a NoSQL database due to the unpredictability of our data. It also makes it easier for us to change it on the run. We've also used firebase for authentication as it is easy to integrate on an android app and is basically the magnum opus of mobile authentication.
