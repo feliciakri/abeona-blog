@@ -6,7 +6,7 @@ author: Octavio Putra
 tags: ["Octavio", "Design", "Usability Testing", "UX", "Sprint 3"]
 ---
 
-###Usability Testing
+### Usability Testing
 Usability testing is a user experience test where volunteers try to use the app through a series of scenarios that mimic real life use. These tests are intended to find out how a user interacts with a digital product and find out design problems that ruins the user's experience.
 
 ### Usability Testing for Abeona
