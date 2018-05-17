@@ -8,8 +8,8 @@ tags : ["Sprint 3", "test"]
 
 Stress test menggunakan website [Load Impact](loadimpact.com). Berikut hasil dari test menggunakan 3 area berbeda :
 
-![Stress Test 1](img/stress-1.png)
+![Stress Test 1](/img/stress-1.png)
 
-![Stress Test 2](img/stress-2.png)
+![Stress Test 2](/img/stress-2.png)
 
-![Stress Test 3](img/stress-3.png)
+![Stress Test 3](/img/stress-3.png)
