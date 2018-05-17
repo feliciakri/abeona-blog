@@ -69,7 +69,7 @@ Which takes us to the present time. Currently I am working on said migration, an
 As this project is finally nearing its final stages, there is one thing that has been in my mind in the past week, Refactoring. the code I made in the course of the last 2 sprints has been horrible. They were all hastily created, used static function, had a jumbled up flow, all around bad (*though it technically still works*). So in this next week, I would actually like to try to refactor my code, with the priorities as follows.
 
 1. Move all handlers and managers to non-static functions,
-2. fix flow to a generalized structure (handler&rarr;controller&rarr;util [&rarr;controller&rarr;handler] &rarr;response),
+2. fix flow to a generalized structure (handler&rarr;controller&rarr;util {&rarr;controller&rarr;handler} &rarr;response),
 3. use proper mocking for unit testing
 
 Knowing how much work will go into refactoring, I can only hope to finish this, even after pulling several all-nighters.
